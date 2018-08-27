@@ -9,13 +9,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="@drawable/robin"/>
+        android:background="@drawable/newseoul"/>
 
     <ImageView
         android:id="@+id/old_seoul"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/zoro"/>
+        android:background="@drawable/oldseoul"/>
 
 </LinearLayout>
