@@ -12,15 +12,17 @@ import java.util.ArrayList;
 
 public class ListViewAdapter extends BaseAdapter{
 
-    private New_Seoul_Fragment1 act;
+    private Activity act;
     private int layout;
     private ArrayList<ShopVO> shopList;
 
-    public ListViewAdapter(New_Seoul_Fragment1 act, int layout, ArrayList<ShopVO> shopList){
+    public ListViewAdapter(Activity act, int layout, ArrayList<ShopVO> shopList){
         this.act = act;
         this.layout = layout;
         this.shopList = shopList;
     }
+
+
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
